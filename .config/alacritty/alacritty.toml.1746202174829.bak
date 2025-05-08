@@ -1,0 +1,13 @@
+general.import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Catppuccin-Mocha.toml"
+]
+
+[font]
+size = 20
+
+  [font.normal]
+  family = "JetBrainsMono Nerd Font"
+  style = "regular"
+
+[window]
+opacity = 0.87
