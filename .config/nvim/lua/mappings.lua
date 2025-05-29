@@ -5,6 +5,8 @@ local map = vim.keymap.set
 ---
 vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "LSP Code Action" })
 
+vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, { silent = true, desc = "LSP: Go to References" })
+
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 

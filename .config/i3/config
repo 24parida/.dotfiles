@@ -201,5 +201,6 @@ bindsym $F8 exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 bindsym $F11 exec xbacklight -inc 20 # increase brightness
 bindsym $F12 exec xbacklight -dec 20 # decrease brightness
 
+exec --no-startup-id feh --bg-scale ~/Downloads/1396457.png
 
 exec_always --no-startup-id xrandr --output DP-1 --mode 3840x2160
